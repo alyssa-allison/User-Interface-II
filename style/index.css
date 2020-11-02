@@ -314,4 +314,103 @@ footer{
 
 }/*closing media query bracket*/
 
-@media(max-width:)
+@media(max-width:500px){
+    html{
+        font-size:62.5%;
+    }
+    body{
+        font-size:1.4rem;
+        line-height: 1.5;
+        color:black;
+        font-family: 'Raleway', sans-serif;
+        background-color:#FFFAFA;
+        }
+        
+    section{
+        padding:4% 0;
+        }
+        
+    nav{
+        color:black;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        align-items:center;
+        border:none;
+    }
+    
+    .links{
+        display:flex;
+        flex-direction:column;
+        align-content:space-between;
+        align-self:center;
+        margin-left:0;
+        padding:2%;
+    }
+    
+    .links a{
+        display:flex;
+        flex-direction:column;
+        align-content:space-between;
+        border:none;
+    }
+    
+    h1{
+        font-size:3.5rem;
+    }
+    
+    h2{
+        font-size:2.8rem;
+        margin-bottom:6%;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    
+    .top{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    .text{
+        padding:4%;
+        text-align:center;
+        width:80%;
+    }
+    
+    button{
+        font-family: 'Raleway', sans-serif;
+        border:none;
+    }
+    
+    .gallery{
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        align-content:center;
+    }
+    
+    .square{
+        max-width:40%;
+        height:auto;
+        text-align:center;
+        margin-bottom:3%;
+    }
+    
+    
+    footer{
+        border:1px solid black;
+        display:flex;
+        padding-top:5%;
+        justify-content:space-evenly;
+        align-content:center;
+    }
+    
+    .social{
+        padding:1%;
+        width:20%;
+    }
+
+}
